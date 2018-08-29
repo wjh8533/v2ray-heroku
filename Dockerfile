@@ -9,6 +9,8 @@ FROM heroku/heroku:18
 
 
 
+
+
 RUN mkdir -m 777 /v2raybin 
  
 ADD entrypoint.sh /entrypoint.sh
